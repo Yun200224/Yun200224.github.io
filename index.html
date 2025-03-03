@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            font-family: "Comic Sans MS", Arial, sans-serif;
+            background-color: #ffe4e1;
             text-align: center;
             margin: 0;
             padding: 0;
@@ -16,75 +16,83 @@
         .container {
             max-width: 600px;
             margin: 20px auto;
-            background: white;
+            background: #fff5f5;
             padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            position: relative;
         }
         .profile-pic {
-            width: 120px;
-            height: 120px;
+            width: 100px;
+            height: 100px;
             border-radius: 50%;
             object-fit: cover;
+            position: absolute;
+            top: 20px;
+            right: 20px;
         }
         h1 {
             margin: 10px 0;
-            color: #333;
+            color: #ff69b4;
         }
         section {
             margin-top: 20px;
             text-align: left;
+            padding: 10px;
+            border-radius: 10px;
+            background: #fff0f5;
         }
         h2 {
-            border-bottom: 2px solid #007bff;
-            padding-bottom: 5px;
-            color: #007bff;
+            color: #ff1493;
+            text-align: center;
         }
         ul {
             list-style-type: none;
             padding: 0;
         }
         li {
-            background: #f9f9f9;
+            background: #ffebef;
             margin: 5px 0;
             padding: 10px;
-            border-radius: 5px;
+            border-radius: 10px;
         }
     </style>
 </head>
 <body>
     <div class="container">
+        <img src="profile.jpg" alt="個人頭像" class="profile-pic">
         <header>
-            <img src="profile.jpg" alt="個人頭像" class="profile-pic">
-            <h1>你的名字 🚀</h1>
-            <p>歡迎來到我的個人網站！</p>
+            <h1>Liang Yun Chen</h1>
+            <p>Master of Information Management and Finance</p>
         </header>
         
         <section class="about">
-            <h2>📌 About Me</h2>
-            <p>我熱愛財經領域，擁有經濟與金融背景，專攻宏觀經濟分析。</p>
+            <h2>About Me</h2>
+            <p>我目前在國立陽明交通大學攻讀資訊管理與金融碩士，專注於金融市場分析、程式交易與數據分析。</p>
         </section>
         
-        <section class="info">
-            <h2>📍 Map</h2>
+        <section class="education">
+            <h2>Education</h2>
             <ul>
-                <li><strong>城市A</strong> - 這裡有我最愛的美食與回憶。</li>
-                <li><strong>城市B</strong> - 我曾經求學的地方。</li>
+                <li>📚 國立陽明交通大學 - 碩士 (2024 - Present)</li>
+                <li>📖 東吳大學 - 學士 (2018 - 2022)</li>
             </ul>
         </section>
         
-        <section class="food">
-            <h2>🍽️ Food</h2>
+        <section class="experience">
+            <h2>Work Experience</h2>
             <ul>
-                <li><strong>火鍋</strong> - 最適合和朋友一起共享的美食。</li>
-                <li><strong>壽司</strong> - 清爽簡單，充滿風味。</li>
-                <li><strong>燒烤</strong> - 煙燻美味，最適合戶外聚餐！</li>
+                <li>💼 CTBC Bank - 客戶服務代表 (2022.10 - 2023.04)</li>
+                <li>🔍 主要負責金融產品銷售，並在業績表現上超越全職員工三倍。</li>
             </ul>
         </section>
         
-        <section class="music">
-            <h2>🎵 Music</h2>
-            <p>老歌讓我回憶過去，新歌讓我感受未來。</p>
+        <section class="skills">
+            <h2>Skills & Certifications</h2>
+            <ul>
+                <li>💡 Python, Financial Analysis, Stock Research</li>
+                <li>📜 證照: 證券專業測驗、高級證券專業測驗、信託業務測驗</li>
+            </ul>
         </section>
     </div>
 </body>
