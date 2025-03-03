@@ -3,17 +3,42 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    background-color: #f8f8f8;
 }
+
 header {
     background-color: #4CAF50;
     color: white;
+    padding: 30px 10px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 10px;
+}
+
+.about, .education {
+    background: white;
     padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-section {
-    margin: 20px;
+
+.edu-box {
+    background-color: #e0f7fa;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
 }
+
 footer {
-    background-color: #f1f1f1;
+    background-color: #4CAF50;
+    color: white;
     padding: 10px;
     margin-top: 20px;
 }
